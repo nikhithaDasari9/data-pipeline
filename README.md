@@ -28,7 +28,7 @@ The data pipeline application reads an Amazon reviews dataset in JSON format, pe
 
    ```bash
    git clone https://github.com/nikhithaDasari9/data-pipeline.git
-
+   ```
 Download the Amazon reviews dataset (2018) in JSON format and place it in the repository directory.
 
 ## Install the required Python packages:
@@ -103,7 +103,7 @@ product_collection.update_one(
 
 print("Product updated successfully.")
 
-
+```
 
 
 Dockerization (Optional)
