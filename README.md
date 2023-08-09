@@ -119,9 +119,9 @@ docker run --name data-pipeline-container -v /path/on/host:/app/output_parquet_p
 Replace /path/on/host with the path on your host system where you want to save the output data.
 
 
-# When running the Docker container, use the -v option to mount a local directory
-# containing the input data into the container. This allows the data pipeline script
-# to access and process the data from the specified local path. Replace
-# "/path/on/host/your_data_directory" with the actual path on your host system where
-# the data is located, and "/path/in/container/data" with the path inside the
-# container where you want to access the data.
+ When running the Docker container, use the -v option to mount a local directory
+ containing the input data into the container. This allows the data pipeline script
+ to access and process the data from the specified local path. Replace
+ "/path/on/host/your_data_directory" with the actual path on your host system where
+ the data is located, and "/path/in/container/data" with the path inside the
+ container where you want to access the data.
